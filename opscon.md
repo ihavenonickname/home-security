@@ -39,11 +39,18 @@ O sistema deve:
 
 ## Não-funcionais
 
-O sistema deve:
+O sistema deve ser:
 
-- Ser inacessível fora da rede local para um atacante utilizando nmap 7.95
-- Ser compatível com o sistema operacional Debian Bookworm
-- Ser escalável para 10 câmeras
+- Seguro
+    - Invisível a escaneadores de portas
+    - Resistente a ataques de password spraying
+    - Resistente a ataques de credential stuffing
+- Custo-efetivo
+    - Comaptível com processadores AMD de entrada
+    - Compatível com o sistema operacional Debian Bookworm
+    - Compatível com software de monitoramento open source
+- Escalável
+    - Expansível para até 16 câmeras
 
 # Descrição
 
@@ -55,7 +62,7 @@ O sistema consiste em:
 - UPS para provisão de energia
 - Software de monitoramento para acesso e configuração das câmeras
 
-As câmeras são instaladas em pontos estratégicos dentro da propriedade a fim de monitorar as áreas de acesso. A comunicação entre as câmeras e o servidor ocorre por meio de um switch. As imagens são armazenadas no servidor e podem ser acessadas ao vivo pelo proprietário através da rede interna.
+As câmeras são instaladas em pontos estratégicos dentro da propriedade a fim de monitorar as áreas de acesso. A comunicação entre as câmeras e o servidor ocorre por meio de um switch. As imagens são armazenadas no servidor e podem ser acessadas ao vivo pelo proprietário através da rede interna, ou acessadas posteriormente até 12 horas depois da captura.
 
 # Plano de manutenção
 
