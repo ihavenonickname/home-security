@@ -55,14 +55,14 @@ O sistema consiste em:
 - UPS para provisão de energia
 - Software de monitoramento para acesso e configuração das câmeras
 
-As câmeras são instaladas em pontos estratégicos dentro da propriedade a fim de monitorar as áreas de acesso. A comunicação entre as câmeras e o servidor ocorre por meio de umswitch. As imagens são armazenadas no servidor e podem ser acessadas ao vivo pelo proprietário através da rede interna.
+As câmeras são instaladas em pontos estratégicos dentro da propriedade a fim de monitorar as áreas de acesso. A comunicação entre as câmeras e o servidor ocorre por meio de um switch. As imagens são armazenadas no servidor e podem ser acessadas ao vivo pelo proprietário através da rede interna.
 
 # Plano de manutenção
 
-# Preventiva
+## Preventiva
 
 TODO
 
-# Corretiva
+## Corretiva
 
 TODO
